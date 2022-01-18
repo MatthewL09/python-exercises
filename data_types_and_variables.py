@@ -1,1 +1,3 @@
-print ("Just starting")
+status = print ("Just starting")
+
+print (status)
