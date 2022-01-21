@@ -213,5 +213,6 @@ sorted(students, key=lambda s: s["name"])
 sorted(students, key=lambda s: s["grade"])
 
 # TODO: Write the code necessary to sort the list of student dictionaries by student <em>last</em> name.
+sorted(students, key=lambda s: s["name"].split()[-1])
 # Hint: You will need to write a function that takes in a student dictionary and returns just the last name.
 # Hint: You can use the <code>.split</code> string method to seperate the first name and the last name.
