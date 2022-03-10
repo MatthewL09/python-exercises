@@ -3,10 +3,11 @@ from colorsys import TWO_THIRD
 
 
 def is_two(x):
-    return x == '2' or x == 2:
+    return x == '2' or x == 2
         
 
 is_two(2)
+
 
 #2.
 def is_vowel(x):
@@ -83,15 +84,15 @@ handle_commas('1,00,123,123,0')
 def get_letter_grade(num):
     if type(num) == int or type(num) == float:
         if num > 89:
-            return = 'A'
+            return  'A'
         elif num > 79:
-            return = 'B'
+            return  'B'
         elif num > 69:
-            return = 'C'
+            return  'C'
         elif num > 59:
-            return = 'D'
+            return  'D'
         else:
-            return = 'F'
+            return  'F'
 
 get_letter_grade(71)
 
